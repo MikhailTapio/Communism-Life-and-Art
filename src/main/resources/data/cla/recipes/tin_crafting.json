@@ -1,0 +1,23 @@
+{
+  "group": "cla",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:glass_pane"
+    },
+    "2": {
+      "item": "minecraft:glass_pane"
+    },
+    "4": {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "result": {
+    "item": "cla:empty_tin",
+    "count": 2
+  }
+}
