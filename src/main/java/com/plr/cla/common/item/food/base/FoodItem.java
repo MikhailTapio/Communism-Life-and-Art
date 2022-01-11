@@ -10,7 +10,7 @@ import net.minecraft.world.level.Level;
 import javax.annotation.Nonnull;
 
 public class FoodItem extends Item {
-    //0 -> solid, 1 -> bowled, 2 -> canned.
+    //-1 -> tinned, 0 -> solid, 1 -> bowled, 2 -> canned.
     public final int foodType;
     public FoodItem(Rarity rarity, FoodProperties properties, int foodType) {
         //todo:creative tab
@@ -21,7 +21,7 @@ public class FoodItem extends Item {
     @Nonnull
     @Override
     public UseAnim getUseAnimation(@Nonnull ItemStack itemstack) {
-        return (foodType == 0)?UseAnim.EAT:UseAnim.DRINK;
+        return (foodType <= 0)? UseAnim.EAT: UseAnim.DRINK;
     }
 
     @Nonnull
@@ -30,10 +30,13 @@ public class FoodItem extends Item {
         ItemStack finish = super.finishUsingItem(stack, world, eater);
         switch(foodType){
             case 2 -> {
-                return returnConsumed(stack,ItemInit.beverageCan.get().getDefaultInstance(),eater);
+                return returnConsumed(stack, ItemInit.beverageCan.get().getDefaultInstance(), eater);
             }
             case 1 -> {
-                return returnConsumed(stack, Items.BOWL.getDefaultInstance(),eater);
+                return returnConsumed(stack, Items.BOWL.getDefaultInstance(), eater);
+            }
+            case -1 -> {
+                return returnConsumed(stack, ItemInit.emptyTin.get().getDefaultInstance(), eater);
             }
         }
         return finish;

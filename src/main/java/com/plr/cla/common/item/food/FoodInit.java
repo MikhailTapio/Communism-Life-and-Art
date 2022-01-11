@@ -10,6 +10,7 @@ import javax.annotation.Nonnull;
 
 public class FoodInit {
     public static void register(){
+        //canned
         RegistryHandler.Items.register("vodka",() -> new FoodItem(Rarity.EPIC, FoodPropertyInit.VODKA, 2));
         RegistryHandler.Items.register("kvass",() -> new FoodItem(Rarity.UNCOMMON, FoodPropertyInit.KVASS, 2));
         RegistryHandler.Items.register("condensed_milk_pack",() -> new FoodItem(Rarity.UNCOMMON, FoodPropertyInit.CONDENSED_MILK, 2){
@@ -18,5 +19,11 @@ public class FoodInit {
                 return 64;
             }
         });
+        //bowled
+        RegistryHandler.Items.register("okroshka",() -> new FoodItem(Rarity.COMMON, FoodPropertyInit.OKROSHKA, 1));
+        RegistryHandler.Items.register("russian_soup",() -> new FoodItem(Rarity.COMMON, FoodPropertyInit.RUSSIAN_SOUP, 1));
+        //tinned
+        RegistryHandler.Items.register("tinned_caviar",() -> new FoodItem(Rarity.COMMON, FoodPropertyInit.TINNED_CAVIAR, -1));
+        RegistryHandler.Items.register("tinned_salmon_caviar", () -> new FoodItem(Rarity.COMMON, FoodPropertyInit.TINNED_SALMON_CAVIAR, -1));
     }
 }
