@@ -25,5 +25,11 @@ public class FoodInit {
         //tinned
         RegistryHandler.Items.register("tinned_caviar",() -> new FoodItem(Rarity.COMMON, FoodPropertyInit.TINNED_CAVIAR, -1));
         RegistryHandler.Items.register("tinned_salmon_caviar", () -> new FoodItem(Rarity.COMMON, FoodPropertyInit.TINNED_SALMON_CAVIAR, -1));
+        //solid
+        RegistryHandler.Items.register("rye_bread",() -> new FoodItem(Rarity.COMMON, FoodPropertyInit.RYE_BREAD, 0));
+        RegistryHandler.Items.register("chocolate",() -> new FoodItem(Rarity.UNCOMMON, FoodPropertyInit.CHOCOLATE, 0));
+        RegistryHandler.Items.register("raw_sausage",() -> new FoodItem(Rarity.COMMON, FoodPropertyInit.RAW_SAUSAGE, 0));
+        RegistryHandler.Items.register("cooked_sausage",() -> new FoodItem(Rarity.COMMON, FoodPropertyInit.COOKED_SAUSAGE, 0));
+
     }
 }

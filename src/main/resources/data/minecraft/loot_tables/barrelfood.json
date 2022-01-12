@@ -34,7 +34,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "cla:milkchocolatealionka",
+          "name": "cla:chocolate",
           "weight": 25,
           "functions": [
             {

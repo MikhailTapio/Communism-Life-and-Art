@@ -32,4 +32,14 @@ public class FoodPropertyInit {
     public static final FoodProperties TINNED_SALMON_CAVIAR = new FoodProperties.Builder().nutrition(4).saturationMod(2)
             .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 160, 0),0.3F)
             .build();
+    public static final FoodProperties RYE_BREAD = new FoodProperties.Builder().nutrition(3).saturationMod(2).build();
+    public static final FoodProperties CHOCOLATE = new FoodProperties.Builder().nutrition(5).saturationMod(5).alwaysEat()
+            .effect(() -> new MobEffectInstance(MobEffects.LUCK, 600, 1), 0.1F)
+            .build();
+    public static final FoodProperties RAW_SAUSAGE = new FoodProperties.Builder().nutrition(4).saturationMod(2).meat()
+            .effect(() -> new MobEffectInstance(MobEffects.WEAKNESS, 600, 0), 0.2F)
+            .build();
+    public static final FoodProperties COOKED_SAUSAGE = new FoodProperties.Builder().nutrition(7).saturationMod(5).meat()
+            .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, 300, 0), 0.5F)
+            .build();
 }

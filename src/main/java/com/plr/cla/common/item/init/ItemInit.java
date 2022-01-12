@@ -8,9 +8,11 @@ import net.minecraftforge.registries.RegistryObject;
 public class ItemInit {
     public static RegistryObject<Item> beverageCan;
     public static RegistryObject<Item> emptyTin;
+    public static RegistryObject<Item> sausageMould;
 
     public static void register(){
         beverageCan = RegistryHandler.Items.register("beverage_can", NormalItem::new);
         emptyTin = RegistryHandler.Items.register("empty_tin", NormalItem::new);
+        sausageMould = RegistryHandler.Items.register("sausage_mould", NormalItem::new);
     }
 }
