@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cla:cccp_anthem",
+          "name": "cla:disc_01",
           "weight": 1,
           "functions": [
             {
@@ -20,7 +20,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "cla:an_evening_outside_moscow",
+          "name": "cla:disc_02",
           "weight": 1,
           "functions": [
             {
@@ -34,7 +34,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "cla:internationale_cn",
+          "name": "cla:disc_03",
           "weight": 1,
           "functions": [
             {
@@ -48,7 +48,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "cla:internationale_cccp",
+          "name": "cla:disc_04",
           "weight": 1,
           "functions": [
             {
@@ -62,7 +62,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "cla:troika_galop",
+          "name": "cla:disc_05",
           "weight": 1,
           "functions": [
             {
@@ -76,7 +76,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "cla:katyusha",
+          "name": "cla:disc_06",
           "weight": 1,
           "functions": [
             {
@@ -90,91 +90,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "cla:we_are_your_firm_successor_the_cyl",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 0,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "cla:we_are_tomorrows_soviet_people",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 0,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "cla:happy_wind",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 0,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "cla:young_pioneers_festival",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 0,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "cla:no_communist_party_no_new_china",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 0,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "cla:our_triumphant_satellite",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 0,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "cla:varchavianka",
+          "name": "cla:disc_07",
           "weight": 1,
           "functions": [
             {

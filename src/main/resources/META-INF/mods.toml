@@ -3,7 +3,7 @@ loaderVersion="[38,)"
 license="GPL v3"
 [[mods]]
 modId="cla"
-version="2.0.0"
+version="2.0.0a"
 displayName="Communism:Life and Art"
 logoFile="logo.png"
 authors="Tapio"

@@ -1,8 +1,0 @@
-{
-  "parent": "cla:custom/has",
-  "textures": {
-    "all": "cla:blocks/littlesovietbannerblock",
-    "particle": "cla:blocks/littlesovietbannerblock",
-    "0": "cla:blocks/bannerblock"
-  }
-}
