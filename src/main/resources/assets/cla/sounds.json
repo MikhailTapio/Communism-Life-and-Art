@@ -61,5 +61,14 @@
         "stream": true
       }
     ]
+  },
+  "charging_horn": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "cla:charging_horn",
+        "stream": true
+      }
+    ]
   }
 }

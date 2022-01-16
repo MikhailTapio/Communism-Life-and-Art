@@ -1,5 +1,6 @@
 package com.plr.cla.common.item.food.base;
 
+import com.plr.cla.common.creativeTab.init.TabInit;
 import com.plr.cla.common.item.init.ItemInit;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
@@ -14,7 +15,7 @@ public class FoodItem extends Item {
     public final int foodType;
     public FoodItem(Rarity rarity, FoodProperties properties, int foodType) {
         //todo:creative tab
-        super(new Properties().tab(CreativeModeTab.TAB_FOOD).rarity(rarity).food(properties));
+        super(new Properties().tab(TabInit.MAIN).rarity(rarity).food(properties));
         this.foodType = foodType;
     }
 

@@ -1,8 +1,9 @@
 package com.plr.cla.common.item.init;
 
 import com.plr.cla.common.CLA;
+import com.plr.cla.common.item.impl.ChargingHornItem;
+import com.plr.cla.common.item.impl.NormalItem;
 import com.plr.cla.common.item.misc.base.DiscItem;
-import com.plr.cla.common.item.normal.NormalItem;
 import com.plr.cla.common.sound.init.SoundInit;
 import com.plr.cla.common.util.RegistryHandler;
 import net.minecraft.resources.ResourceLocation;
@@ -23,6 +24,8 @@ public class ItemInit {
     public static RegistryObject<Item> discVI;
     public static RegistryObject<Item> discVII;
 
+    public static RegistryObject<Item> chargingHorn;
+
     public static void register(){
         //Food relevant
         beverageCan = RegistryHandler.Items.register("beverage_can", NormalItem::new);
@@ -36,6 +39,7 @@ public class ItemInit {
         discV = initDiscItem(SoundInit.V);
         discVI = initDiscItem(SoundInit.VI);
         discVII = initDiscItem(SoundInit.VII);
+        chargingHorn = RegistryHandler.Items.register("charging_horn", ChargingHornItem::new);
 
     }
 

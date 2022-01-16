@@ -8,13 +8,9 @@ import net.minecraftforge.registries.RegistryObject;
 
 
 public class SoundInit {
-    public static RegistryObject<SoundEvent> internationaleRu;
-    public static RegistryObject<SoundEvent> internationaleCn;
-    public static RegistryObject<SoundEvent> sovietAnthem;
-    public static RegistryObject<SoundEvent> weAreYourFirmSuccessor;
-    public static RegistryObject<SoundEvent> weAreTomorrowsSovietPeople;
-    public static RegistryObject<SoundEvent> ourTriumphantSatellite;
-    public static RegistryObject<SoundEvent> maoism;
+
+    public static RegistryObject<SoundEvent> chargingHorn;
+
     public static final String I = "disc_01";
     public static final String II = "disc_02";
     public static final String III = "disc_03";
@@ -24,16 +20,17 @@ public class SoundInit {
     public static final String VII = "disc_07";
 
     public static void register(){
-        internationaleRu = initSound(I);
-        internationaleCn = initSound(II);
-        sovietAnthem = initSound(III);
-        weAreYourFirmSuccessor = initSound(IV);
-        weAreTomorrowsSovietPeople = initSound(V);
-        ourTriumphantSatellite = initSound(VI);
-        maoism = initSound(VII);
+        initSound(I);
+        initSound(II);
+        initSound(III);
+        initSound(IV);
+        initSound(V);
+        initSound(VI);
+        initSound(VII);
+        chargingHorn = initSound("charging_horn");
     }
 
-    private static RegistryObject<SoundEvent> initSound(String discName){
-        return RegistryHandler.Sounds.register(discName, () -> new SoundEvent(new ResourceLocation(CLA.MODID, discName)));
+    private static RegistryObject<SoundEvent> initSound(String soundName){
+        return RegistryHandler.Sounds.register(soundName, () -> new SoundEvent(new ResourceLocation(CLA.MODID, soundName)));
     }
 }
