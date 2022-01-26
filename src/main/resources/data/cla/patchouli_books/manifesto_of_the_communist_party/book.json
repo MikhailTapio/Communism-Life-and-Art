@@ -1,0 +1,9 @@
+{
+  "name": "book.cla.manifesto.title",
+  "landing_text": "book.cla.manifesto.intro",
+  "header_color": "FF0000",
+  "book_texture": "patchouli:textures/gui/book_red.png",
+  "version": 1,
+  "creative_tab": "cla.main",
+  "allow_extensions": false
+}

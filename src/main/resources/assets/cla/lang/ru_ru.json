@@ -1,4 +1,6 @@
 {
+  "book.cla.manifesto.title": "Manifesto of the Communist Party",
+  "book.cla.manifesto.intro": "",
   "item.cla.beverage_can": "бутылка напитков",
   "item.cla.sound": "Sound",
   "item.cla.cooked_sausage": "вареная колбаса",
@@ -47,7 +49,6 @@
   "subtitles.disc_05": "",
   "item.cla.disc_04.desc": "Мы - верная смена твоя, Комсомол!",
   "item.cla.kvass": "квас",
-  "itemGroup.tabcommunism_life_and_art": "Коммунизм:жизнь и искусство",
   "item.cla.katyusha.desc": "Катюша",
   "item.cla.tinned_salmon_caviar": "консервная  лососёвая икра",
   "subtitles.inthefieldsofhope": "",
