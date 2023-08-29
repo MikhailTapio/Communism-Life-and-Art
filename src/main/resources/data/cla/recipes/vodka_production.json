@@ -1,0 +1,42 @@
+{
+  "group": "cla",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:potato"
+    },
+    "1": {
+      "item": "minecraft:potato"
+    },
+    "2": {
+      "item": "minecraft:potato"
+    },
+    "3": {
+      "item": "minecraft:sugar"
+    },
+    "4": {
+      "item": "cla:beverage_can"
+    },
+    "5": {
+      "item": "minecraft:sugar"
+    },
+    "6": {
+      "item": "cla:beverage_can"
+    },
+    "7": {
+      "item": "minecraft:water_bucket"
+    },
+    "8": {
+      "item": "cla:beverage_can"
+    }
+  },
+  "result": {
+    "item": "cla:vodka",
+    "count": 3
+  }
+}

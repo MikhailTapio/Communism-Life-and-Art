@@ -1,0 +1,74 @@
+{
+  "disc_01": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "cla:disc_01",
+        "stream": true
+      }
+    ]
+  },
+  "disc_02": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "cla:disc_02",
+        "stream": true
+      }
+    ]
+  },
+  "disc_03": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "cla:disc_03",
+        "stream": true
+      }
+    ]
+  },
+  "disc_04": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "cla:disc_04",
+        "stream": true
+      }
+    ]
+  },
+  "disc_05": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "cla:disc_05",
+        "stream": true
+      }
+    ]
+  },
+  "disc_06": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "cla:disc_06",
+        "stream": true
+      }
+    ]
+  },
+  "disc_07": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "cla:disc_07",
+        "stream": true
+      }
+    ]
+  },
+  "charging_horn": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "cla:charging_horn",
+        "stream": true
+      }
+    ]
+  }
+}

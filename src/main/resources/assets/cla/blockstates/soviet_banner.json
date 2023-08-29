@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cla:block/soviet_banner"
+    },
+    "facing=east": {
+      "model": "cla:block/soviet_banner",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cla:block/soviet_banner",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cla:block/soviet_banner",
+      "y": 270
+    }
+  }
+}
